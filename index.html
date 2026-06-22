@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Northwind Data Warehouse Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+<h2>Northwind DWH</h2>
+
+<ul>
+<li>Overview</li>
+<li>Sales</li>
+<li>Products</li>
+<li>Employees</li>
+</ul>
+</div>
+
+<div class="content">
+
+<div class="cards">
+
+<div class="card">
+<h3>Revenue</h3>
+<h1>$134,631</h1>
+</div>
+
+<div class="card">
+<h3>Orders</h3>
+<h1>74</h1>
+</div>
+
+<div class="card">
+<h3>Customers</h3>
+<h1>91</h1>
+</div>
+
+<div class="card">
+<h3>Employees</h3>
+<h1>9</h1>
+</div>
+
+</div>
+
+<div class="charts">
+
+<div class="chart-box">
+<h3>Sales By Category</h3>
+<canvas id="categoryChart"></canvas>
+</div>
+
+<div class="chart-box">
+<h3>Top Products</h3>
+<canvas id="productChart"></canvas>
+</div>
+
+<div class="chart-box">
+<h3>Top Customers</h3>
+<canvas id="customerChart"></canvas>
+</div>
+
+<div class="chart-box">
+<h3>Employee Performance</h3>
+<canvas id="employeeChart"></canvas>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
